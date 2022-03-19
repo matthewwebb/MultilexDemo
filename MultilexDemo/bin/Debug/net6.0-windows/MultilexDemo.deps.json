@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MultilexDemo/1.0.0": {
+        "dependencies": {
+          "FirstDataBank.DrugServer.API": "3.0.0.11240"
+        },
+        "runtime": {
+          "MultilexDemo.dll": {}
+        }
+      },
+      "FirstDataBank.DrugServer.API/3.0.0.11240": {
+        "runtime": {
+          "FirstDataBank.DrugServer.API.dll": {
+            "assemblyVersion": "3.0.0.11240",
+            "fileVersion": "3.0.0.11240"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MultilexDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FirstDataBank.DrugServer.API/3.0.0.11240": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
