@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Personal Repositories\\MultilexDemo\\MultilexDemo\\MultilexDemo.csproj",
+      "projectUniqueName": "C:\\Users\\mwebb\\source\\Personal Repositories\\MultilexDemo\\MultilexDemo\\MultilexDemo.csproj",
       "projectName": "MultilexDemo",
-      "projectPath": "E:\\Personal Repositories\\MultilexDemo\\MultilexDemo\\MultilexDemo.csproj",
+      "projectPath": "C:\\Users\\mwebb\\source\\Personal Repositories\\MultilexDemo\\MultilexDemo\\MultilexDemo.csproj",
       "packagesPath": "C:\\Users\\mwebb\\.nuget\\packages\\",
-      "outputPath": "E:\\Personal Repositories\\MultilexDemo\\MultilexDemo\\obj\\",
+      "outputPath": "C:\\Users\\mwebb\\source\\Personal Repositories\\MultilexDemo\\MultilexDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
