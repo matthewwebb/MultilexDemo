@@ -1,15 +1,15 @@
-using FirstDataBank.DrugServer.API;
+//using FirstDataBank.DrugServer.API;
 
 namespace MultilexDemo
 {
     public partial class MainForm : Form
     {
 
-        public MainForm(IDrugSystem Multilex)
+        public MainForm() //IDrugSystem Multilex)
         {
             InitializeComponent();
 
-            MessageBox.Show(Multilex.GetDisclaimer());
+            //MessageBox.Show(Multilex.GetDisclaimer());
         }
 
     }
