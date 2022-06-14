@@ -1,8 +1,5 @@
-
-
-
-//using FirstDataBank.DrugServer.API;
-//using FirstDataBank.DrugServer.API.Extensions;
+using FirstDataBank.DrugServer.API;
+using FirstDataBank.DrugServer.API.Extensions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -42,16 +39,16 @@ namespace MultilexDemo
                 })
                 .ConfigureServices((context, services) =>
                 {
-                    //services.AddDrugServerApi(settings =>
-                    //{
-                    //    //Get Settings from Config File
-                    //    settings.ConfigurationSourceSettings = context.Configuration.GetSection("FDBDrugServerSettings");
-                    //});
-                    //services.AddSingleton<IDrugSystem>(serviceProvider =>
-                    //{
-                    //    var factory = serviceProvider.GetRequiredService<IDrugSystemFactory>();
-                    //    return factory.CreateSystem();
-                    //});
+                    services.AddDrugServerApi(settings =>
+                    {
+                        //Get Settings from Config File
+                        settings.ConfigurationSourceSettings = context.Configuration.GetSection("FDBDrugServerSettings");
+                    });
+                    services.AddSingleton<IDrugSystem>(serviceProvider =>
+                    {
+                        var factory = serviceProvider.GetRequiredService<IDrugSystemFactory>();
+                        return factory.CreateSystem();
+                    });
 
                     services.AddScoped<MainForm>();
 

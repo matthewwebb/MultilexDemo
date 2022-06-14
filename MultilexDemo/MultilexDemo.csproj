@@ -19,6 +19,7 @@
   <ItemGroup>
     <Reference Include="FirstDataBank.DrugServer.API">
       <HintPath>D:\.NET API DLLs\3.0.0\FirstDataBank.DrugServer.API.dll</HintPath>
+      <CopyLocal>True</CopyLocal>
     </Reference>
   </ItemGroup>
 
