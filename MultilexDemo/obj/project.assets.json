@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mwebb\\source\\Personal Repositories\\MultilexDemo\\MultilexDemo\\MultilexDemo.csproj",
+      "projectUniqueName": "D:\\Git Repositories\\MultilexDemo\\MultilexDemo\\MultilexDemo.csproj",
       "projectName": "MultilexDemo",
-      "projectPath": "C:\\Users\\mwebb\\source\\Personal Repositories\\MultilexDemo\\MultilexDemo\\MultilexDemo.csproj",
+      "projectPath": "D:\\Git Repositories\\MultilexDemo\\MultilexDemo\\MultilexDemo.csproj",
       "packagesPath": "C:\\Users\\mwebb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mwebb\\source\\Personal Repositories\\MultilexDemo\\MultilexDemo\\obj\\",
+      "outputPath": "D:\\Git Repositories\\MultilexDemo\\MultilexDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3432,7 +3432,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/FDB-Multilex/_packaging/FDB-Utilities/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
@@ -3489,7 +3490,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
